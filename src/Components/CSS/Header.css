@@ -1,0 +1,151 @@
+.header_wrapper {
+    height: 60px;
+    background-color: #020202;
+    top: 0;
+    z-index: 100;
+}
+
+.america_logo {
+    height: 15px !important;
+}
+
+.header_cart .the_cart {
+    height: 30px;
+    width: 90%;
+    padding-right: 0;
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+.header_location {
+    height: 15px !important;
+}
+
+.header_optionChocice {
+    flex: 0.1;
+    border-radius: 1vmin;
+    height: 39px;
+    border: none;
+    width: 50%;
+}
+
+.header_search {
+    flex: 1;
+    border-radius: 24px;
+}
+
+.header_search .header_searchIcon {
+    height: 39px !important;
+    width: 30px;
+    padding: 2px;
+}
+
+.header_searchinput {
+    height: 39px;
+    border: none;
+    width: 100%;
+}
+
+.header_option {
+    flex-direction: column;
+}
+
+.header_nav {
+    justify-content: space-evenly;
+}
+
+.header_optionLineOne {
+    font-size: 10px;
+}
+
+.header_optionLinetwo {
+    font-size: 13px;
+}
+
+.CLear_Link_Border:hover {
+    transform: scale(1.00000000000000000001);
+    padding: 3px;
+    border: 2px solid white;
+}
+
+.CLear_Link_Borderb:hover {
+    border: 2px solid white;
+    border-bottom: 0;
+}
+
+
+/* submenu css */
+.subnavigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232f3e;
+    padding: 15px 4px;
+    height: 35px;
+
+}
+
+.submenu {
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    flex-direction: row;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.menu__icon {
+    margin-top: 2px;
+    margin-right: 3px;
+    font-size: small;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.submenu li a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 1px 7px;
+}
+
+.submenu li a:hover {
+    border: 1px solid #fff;
+    margin: -1px;
+    border-radius: 2px;
+    padding: 1px 7px;
+}
+
+nav .submenu {
+    font-size: 16px;
+}
+
+li {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.submenu__right {
+    float: right;
+}
+
+@media (max-width: 772px) {
+    .subnavigation {
+        display: none;
+    }
+
+    .right-wrapper {
+        width: 100%;
+    }
+}

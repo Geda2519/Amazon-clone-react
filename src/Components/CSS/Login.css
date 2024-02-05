@@ -1,0 +1,102 @@
+.sheks {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.login__logo {
+    margin-top: -50px;
+    margin-bottom: 0px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo {
+    background-color: white;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.niko {
+    padding-left: 50px;
+    margin-bottom: -261px;
+    padding-top: 0px;
+}
+
+.login__container {
+    width: 360px;
+    height: fit-content;
+    border: 1px solid lightgray;
+}
+
+.login__container>form>input {
+    height: 30px;
+    width: 98%;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__container>form>button {
+    background-color: #eeac05;
+}
+
+.cont {
+    font-size: 12px;
+}
+
+.a-divider-break {
+    top: 2px;
+    line-height: 0;
+    box-sizing: border-box;
+}
+
+.a-divider-break>h5 {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    padding: 0 8px 0 7px;
+}
+
+.registar__btn {
+    height: 30px;
+    border-color: #eff0f3;
+}
+
+
+
+
+.titanium>li {
+    text-decoration: none;
+    display: flex;
+    font-size: 10px;
+}
+
+.titanium {
+    margin-left: 500px;
+    padding-top: -100px;
+}
+
+.supreme:hover {
+    text-decoration: underline;
+    color: rgb(134, 23, 23);
+}
+
+.fse {
+    font-size: 10px;
+
+}
+
+.supa-strike {
+    padding-top: 134Spx;
+    margin-top: 25px;
+    margin-bottom: -447px;
+}
